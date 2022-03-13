@@ -21,8 +21,12 @@ ResultSet resultSet = null;
 %>
 <!DOCTYPE html>
 <html>
+<head>
+<link rel="stylesheet" href="style/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="js/script.js"></script>
+</head>
 <body>
-
 <h1>Logged in as: ${username}</h1>
 <button><a href="login.jsp">Logout</a></button>
 <table border="1">
@@ -61,5 +65,17 @@ e.printStackTrace();
 }
 %>
 </table>
+<!-- Trigger/Open The Modal -->
+<button id="myBtn">Buy and Sell PPS</button>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div id ="loadTest" class="modal-content">
+    
+  </div>
+
+</div>
 </body>
 </html>
