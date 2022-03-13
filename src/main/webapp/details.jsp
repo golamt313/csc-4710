@@ -9,6 +9,6 @@
 <meta http-equiv="refresh" content="1; URL=login.jsp" />
 </head>
 <body>
- <h1>User successfully registered!</h1>
+ <h1>User Successfully Registered!</h1>
 </body>
 </html>
